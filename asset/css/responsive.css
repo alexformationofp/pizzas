@@ -1,0 +1,57 @@
+ /* Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 320px) {
+  .titre{
+    font-size: 14px;
+  }
+
+  #navigation{
+    height: 40px;
+    max-height: 40px;
+  }
+  #slider{
+    margin-top: 40px;
+  }
+  #nav-desk{
+    display: none;
+  }
+  .navbar-style{
+  	font-size: 10px;
+  }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.titre{
+  font-size: 50px;
+}
+#navigation{
+  height: 130px;
+  max-height: 130px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#nav-mobile{
+  display: none;
+}
+#slider{
+  margin-top: 0px;
+}
+#nav-desk{
+  display: block;
+}
+.navbar-style{
+	font-size: 28px;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

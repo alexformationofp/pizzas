@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+/*FIN RESET*/
+.titre{
+  font-family: 'Italiana', serif;
+  color: #333;
+}
+.drapeau{
+	height: 10px;
+}
+.vert, .blanc, .rouge{
+	width: 50px;
+	height: 10px;
+	display: inline-block;
+}
+.vert{
+	background-color: #006837;
+}
+.blanc{
+	background-color: white;
+}
+.rouge{
+	background-color: #ff0000;
+}
+.brd{
+	border: 2px solid red;
+}
+/* font-family: 'Italiana', serif;
+font-family: 'Barlow', sans-serif; */
+#story p{
+    font-family: 'Barlow', sans-serif;
+}
+#story h2{
+    font-family: 'Italiana', sans-serif;
+}
+/*=========================================*/
+/*========== NAVIGATION ===================*/
+
+#navigation{
+  background-color: black;
+	z-index: 1000;
+}
+#nav-desk h1{
+	color: white;
+	text-shadow: 0px 0px 3px white;
+	padding-left: 0px;
+}
+#nav-desk h2{
+	padding-left: 1px;
+}
+#nav-desk .menu{
+	width: 60%;
+	max-width: 60%;
+}
+#nav-desk li{
+	transition: transform .2s ease-in-out;
+}
+#nav-desk li:hover{
+	transform: scale(1.2);
+}
+#nav-desk a:hover{
+	color: white;
+}
+#nav-mobile .burger{
+	width: 24px;
+	height: 12px;
+	cursor: pointer;
+	position: relative;
+	margin-top: 6px;
+}
+.burger span{
+	width: 100%;
+	height: 4px;
+	background-color: white;
+	display: block;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	transition: background-color 0.5s ease-in-out;
+}
+.burger span::before, .burger span::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	background-color: white;
+}
+.burger span::before{
+	transform: translateY(-10px);
+	transition: transform 0.5s ease-in-out;
+}
+.burger span::after{
+	transform: translateY(10px);
+	transition: transform 0.5s ease-in-out;
+}
+.burger.b-active span{
+	background-color: transparent;
+}
+.burger.b-active span::before{
+	transform: translateY(0px) rotateZ(45deg);
+}
+.burger.b-active span::after{
+	transform: translateY(0px) rotateZ(-45deg);
+}
+.navbar-style{
+	color: white;
+	font-family: 'Barlow', serif;
+}
+.flexylign{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.flexytween{
+	display: flex;
+	justify-content: space-between;
+}
+
+/*======== FIN NAVIGATION =================*/
+/*=========================================*/
+
+/*=========================================*/
+/*============ SLIDER =====================*/
+
+#slider #slider-container{
+	padding: 0;
+}
+
+/*=========== FIN SLIDER ==================*/
+/*=========================================*/
+
+/* XXXXXXXXXXXXXXXXXXXXXXX  PIZZAS   XXXXXXXXXXXXXXXXXXXXX */
+#pizza{
+	padding-top: 50px;
+}
+
+.les-pizzas{
+    display: flex;
+    justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+.item{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    background-size:110%;
+    background-position: center;
+    background-image: url("../img/pizza1.jpg");
+    transition: all .3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+.item:hover{
+    background-size: 120%;
+}
+.item h3, .item p{
+    color: white;
+    padding: 5px;
+}
+.item h3{
+	font-size: 28px;
+	font-family: 'Italiana', serif;
+	background-color: rgba(51, 51, 51, .9);
+}
+.item p{
+	font-family: Barlow;
+	font-weight: light;
+	font-size: 16px;
+	background-color: rgba(51, 51, 51, .9);
+}
+/* XXXXXXXXXXXXXXXXXXXXXX STORY XXXXXXXXXXXXXXXXXXX */
+
+#story{
+	background-image: url(../img/fonndd.jpg);
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+}
+#story p{
+	font-family: 'Barlow', sans-serif;
+	line-height: 25px;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 180px;
+	margin-top: 80px;
+}
+#story h2{
+	color: white;
+}
+/* XXXXXXXXXXXXXXXXXXXX FOOTER XXXXXXXXXXXXXXXXXXX */
+#footer{
+	background-color: #333333;
+	color: white;
+	font-family: 'Barlow', sans-serif;
+	font-size: 18px;
+}
+#footer .para2{
+	display: flex;
+}
+#footer .para2 img{
+	width: 30px;
+	height: auto;
+}
