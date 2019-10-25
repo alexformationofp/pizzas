@@ -76,12 +76,7 @@ a:hover{
 }
 /* font-family: 'Italiana', serif;
 font-family: 'Barlow', sans-serif; */
-#story p{
-    font-family: 'Barlow', sans-serif;
-}
-#story h2{
-    font-family: 'Italiana', sans-serif;
-}
+
 /*=========================================*/
 /*========== NAVIGATION ===================*/
 
@@ -234,8 +229,8 @@ font-family: 'Barlow', sans-serif; */
 	line-height: 25px;
 	color: white;
 	font-size: 18px;
-	margin-bottom: 180px;
-	margin-top: 80px;
+	padding-bottom: 180px;
+	padding-top: 80px;
 }
 #story h2{
 	color: white;
@@ -246,11 +241,17 @@ font-family: 'Barlow', sans-serif; */
 	color: white;
 	font-family: 'Barlow', sans-serif;
 	font-size: 18px;
+	text-align: center;
 }
 #footer .para2{
 	display: flex;
+	justify-content: center;
 }
 #footer .para2 img{
 	width: 30px;
 	height: auto;
+	margin-left: 20px;
+}
+#footer .para2 .iframe{
+	margin-left: 20px;
 }
