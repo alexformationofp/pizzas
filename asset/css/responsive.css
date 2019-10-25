@@ -6,11 +6,6 @@
   .titre{
     font-size: 14px;
   }
-
-  #navigation{
-    height: 40px;
-    max-height: 40px;
-  }
   #slider{
     margin-top: 40px;
   }
@@ -20,7 +15,6 @@
   .navbar-style{
   	font-size: 10px;
   }
-
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -34,11 +28,13 @@
   font-size: 50px;
 }
 #navigation{
-  height: 130px;
-  max-height: 130px;
+  height: 95px;
+  max-height: 95px;
+  z-index: 1000;
   background-color: rgba(0, 0, 0, 0.5);
 }
-#nav-mobile{
+
+#navigation-mobile{
   display: none;
 }
 #slider{

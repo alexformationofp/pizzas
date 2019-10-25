@@ -1,6 +1,6 @@
 <div id="nav-mobile" class="container">
   <div class="row">
-    <div class="col-lg-12 flexytween">
+    <div class="col-lg-12 flexytween pt-3">
       <div class="logo">
         <h2 class="titre">Lucio Amaretti</h2>
         <h2 class="navbar-style">La Tradition de la pizza</h2>
