@@ -20,6 +20,7 @@
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -46,7 +47,6 @@
 .navbar-style{
 	font-size: 28px;
 }
-
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
