@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container switch-container">
     <div class="row">
         <div class="col-12">
             <h2 class="titre">Nos pizzas, dans la plus pure tradition italienne</h2>
@@ -9,8 +9,7 @@
             </div>
         </div>
     </div>
-    <div class="les-pizzas">
-            
+    <div class="les-pizzas">     
                 <div class="item">             
                     <h3>le titre</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iure?</p>
@@ -51,6 +50,14 @@
                     <h3>le titre</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iure?</p>
                 </div>
-            
+                <div class="item">             
+                    <h3>le titre</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iure?</p>
+                </div>
+                <div class="item">             
+                    <h3>le titre</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, iure?</p>
+                </div>         
         </div>
+        
 </div>

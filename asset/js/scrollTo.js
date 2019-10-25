@@ -8,10 +8,5 @@ $(document).ready(function() {
 });
 
 
-$(window).on('scroll', function(){
-  if ($(document.documentElement).scrollTop() > 450) {
-    $("#navigation").css("background-color", "#333333");
-  }else{
-    $("#navigation").css("background-color", "rgba(0, 0, 0, 0.5)");
-  }
-});
+
+

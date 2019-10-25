@@ -181,6 +181,9 @@ font-family: 'Barlow', sans-serif; */
 /* XXXXXXXXXXXXXXXXXXXXXXX  PIZZAS   XXXXXXXXXXXXXXXXXXXXX */
 #pizza{
 	padding-top: 50px;
+	background-image: url("../img/fond3.jpg");
+	background-position: center;
+	background-size: cover;
 }
 
 .les-pizzas{
@@ -195,13 +198,25 @@ font-family: 'Barlow', sans-serif; */
     overflow: hidden;
     background-size:110%;
     background-position: center;
-    background-image: url("../img/pizza1.jpg");
+    
     transition: all .3s ease-in-out;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     border-radius: 10px;
     margin-bottom: 2%;
+}
+.item:nth-of-type(1), .item:nth-of-type(7), .item:nth-of-type(12){
+	background-image: url("../img/pizza1.jpg");
+}
+.item:nth-of-type(2), .item:nth-of-type(5), .item:nth-of-type(11){
+	background-image: url("../img/pizza2.jpg");
+}
+.item:nth-of-type(3), .item:nth-of-type(6), .item:nth-of-type(9){
+	background-image: url("../img/pizza3.jpg");
+}
+.item:nth-of-type(4), .item:nth-of-type(8), .item:nth-of-type(10){
+	background-image: url("../img/pizza4.jpg");
 }
 .item:hover{
     background-size: 120%;
@@ -221,6 +236,7 @@ font-family: 'Barlow', sans-serif; */
 	font-size: 16px;
 	background-color: rgba(51, 51, 51, .9);
 }
+
 /* XXXXXXXXXXXXXXXXXXXXXX STORY XXXXXXXXXXXXXXXXXXX */
 
 #story{
