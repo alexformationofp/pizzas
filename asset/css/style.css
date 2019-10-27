@@ -50,6 +50,33 @@ a:hover{
 	text-decoration: none;
 }
 /*FIN RESET*/
+/* ============================= */
+/* ======== SCROLL BAR  ======== */
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+	box-shadow: inset 0 0 5px grey;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(0deg, #B01821, white 40%, #546929);
+	border-radius: 10px;
+	border: 1px solid gray;
+	box-shadow: inset 0 0 2px white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #546929;
+}
+/* ======== FIN SCROLL  ========= */
+/* ============================= */
 .titre{
   font-family: 'Italiana', serif;
   color: #333;
@@ -74,6 +101,15 @@ a:hover{
 .brd{
 	border: 2px solid red;
 }
+.prltv{
+	position: relative;
+}
+.pabslt{
+	position: absolute;
+}
+.pd-bt-log{
+	padding-bottom: 50vh;
+}
 /* font-family: 'Italiana', serif;
 font-family: 'Barlow', sans-serif; */
 
@@ -81,7 +117,7 @@ font-family: 'Barlow', sans-serif; */
 /*========== NAVIGATION ===================*/
 
 		/*desktop*/
-		#nav-desk h1{
+		.title-skin{
 			color: white;
 			text-shadow: 0px 0px 3px white;
 			padding-left: 0px;
@@ -105,10 +141,7 @@ font-family: 'Barlow', sans-serif; */
 
 		/*mobile*/
 		#navigation-mobile{
-			height: 40px;
-			max-height: 40px;
 			z-index: 1000;
-			background-color: black;
 		}
 		#nav-mobile h2:nth-child(1){
 			color: white;
@@ -118,7 +151,7 @@ font-family: 'Barlow', sans-serif; */
 			height: 12px;
 			cursor: pointer;
 			position: relative;
-			padding-top: 26px;
+			padding-top: 35px;
 		}
 		.burger span{
 			width: 100%;
@@ -128,7 +161,7 @@ font-family: 'Barlow', sans-serif; */
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
-			transition: background-color 0.5s ease-in-out;
+			transition: background-color 0.2s ease-in-out;
 		}
 		.burger span::before, .burger span::after{
 			content: '';
@@ -139,11 +172,11 @@ font-family: 'Barlow', sans-serif; */
 		}
 		.burger span::before{
 			transform: translateY(-10px);
-			transition: transform 0.5s ease-in-out;
+			transition: transform 0.2s ease-in-out;
 		}
 		.burger span::after{
 			transform: translateY(10px);
-			transition: transform 0.5s ease-in-out;
+			transition: transform 0.2s ease-in-out;
 		}
 		.burger.b-active span{
 			background-color: transparent;
@@ -169,7 +202,15 @@ font-family: 'Barlow', sans-serif; */
 	display: flex;
 	justify-content: space-between;
 }
-
+.flexyend{
+	display: flex;
+	justify-content: flex-end;
+}
+.flexymenu-m{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 /*======== FIN NAVIGATION =================*/
 /*=========================================*/
 
@@ -179,7 +220,28 @@ font-family: 'Barlow', sans-serif; */
 #slider #slider-container{
 	padding: 0;
 }
+#lucioK{
+	font-size: 35px;
+}
+#pop-up{
+	z-index: 1025;
+	background: rgba(0, 0, 0, 0.9);
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.txt-ct{
+	text-align: center;
+}
+.close-butn{
+	color: white;
+	cursor: alias;
+	font-size: 1.3em;
+}
 /*=========== FIN SLIDER ==================*/
 /*=========================================*/
 
@@ -203,7 +265,7 @@ font-family: 'Barlow', sans-serif; */
     overflow: hidden;
     background-size:110%;
     background-position: center;
-    
+
     transition: all .3s ease-in-out;
     display: flex;
     flex-direction: column;

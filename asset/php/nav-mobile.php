@@ -1,8 +1,8 @@
 <div id="nav-mobile" class="container">
-  <div class="row">
-    <div class="col-lg-12 flexytween pt-3">
-      <div class="logo">
-        <h2 class="titre">Lucio Amaretti</h2>
+  <div class="row pt-2">
+    <div id="logo-pos" class="col-lg-12 flexyend">
+      <div id="logo-m" class="logo d-none">
+        <h2 class="titre title-skin">Lucio Amaretti</h2>
         <h2 class="navbar-style">La Tradition de la pizza</h2>
       </div>
       <div class="burger">
@@ -10,14 +10,10 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-lg-12">
-      <div class="menu">
-        <ul class="flexytween">
-          <li><a class="navbar-style" href="#pizza">Nos pizzas</a></li>
-          <li><a class="navbar-style" href="#story">Nos valeurs</a></li>
-          <li><a class="navbar-style" href="#location">Nos restaurants</a></li>
-        </ul>
+  <div id="menu-mobile" class="row">
+    <div class="col-lg-12 flexymenu-m">
+      <div id="burger-menu" class="menu">
+
       </div>
     </div>
   </div>
