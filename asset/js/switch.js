@@ -10,13 +10,17 @@ function switchContainer() {
     };
     if ($(window).width () < 768) {
         $("#story").css("background", "url('./asset/img/fonndd1024.jpg') no-repeat top right / cover");
+        $("#story").css("background-attachment", "fixed");
     } else {
         $("#story").css("background", "url('./asset/img/fonndd.jpg') no-repeat top right / cover");
+        $("#story").css("background-attachment", "fixed");
     }
     if ($(window).width () < 576) {
         $("#story").css("background-position-x", "-800px");
+        $("#story").css("background-attachment", "fixed");
     } else {
         $("#story").css("background", "url('./asset/img/fonndd.jpg') no-repeat top right / cover");
+        $("#story").css("background-attachment", "fixed");
     }
 }; 
 
