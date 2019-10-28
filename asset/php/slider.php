@@ -9,24 +9,21 @@
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="asset/img/four1.jpg" class="slider-rzoom d-block w-100" alt="...">
+              <img src="asset/img/four1.jpg" class="switch-atr slider-rzoom d-block w-100" alt="...">
               <div class="carousel-caption sliderText-none">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <h5>UNE PATE FINE ET CROUSTILLANTE COMME PEU SAVE LE FAIRE</h5>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="asset/img/four.jpg" class="slider-rzoom d-block w-100" alt="...">
+              <img src="asset/img/four.jpg" class="switch-atr slider-rzoom d-block w-100" alt="...">
               <div class="carousel-caption sliderText-none">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h5>LA CUISSON AU FEU DE BOIS GARANTIT UNE SAVEUR INIMITABLE A NOS PIZZAS</h5>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="asset/img/camion.jpg" class="slider-rzoom d-block w-100" alt="...">
+              <img src="asset/img/camion.jpg" class="switch-atr slider-rzoom d-block w-100" alt="...">
               <div class="carousel-caption sliderText-none">
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h5>PIZZAIOLOS DE PERE EN FILS DEPUIS 3 GENERATIONS</h5>
               </div>
             </div>
           </div>

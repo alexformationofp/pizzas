@@ -18,7 +18,6 @@
   }
   .slider-rzoom{
     height: 100vh;
-    transform: scale(1.5);
   }
   .logo-slider{
     position: absolute;
@@ -105,7 +104,7 @@
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
+@media (min-width: 1200px) {
   #story{
     background-position: center;
   }
