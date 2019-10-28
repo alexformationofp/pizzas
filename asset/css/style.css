@@ -316,7 +316,7 @@ font-family: 'Barlow', sans-serif; */
 	line-height: 25px;
 	color: white;
 	font-size: 18px;
-	padding-bottom: 180px;
+	/* padding-bottom: 180px; */
 	padding-top: 80px;
 }
 #story h2{

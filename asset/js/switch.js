@@ -13,6 +13,11 @@ function switchContainer() {
     } else {
         $("#story").css("background", "url('./asset/img/fonndd.jpg') no-repeat top right / cover");
     }
+    if ($(window).width () < 576) {
+        $("#story").css("background-position-x", "-800px");
+    } else {
+        $("#story").css("background", "url('./asset/img/fonndd.jpg') no-repeat top right / cover");
+    }
 }; 
 
 switchContainer();

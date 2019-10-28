@@ -42,7 +42,9 @@
   }
   #story{
     height: 90vh;
-    background-position-x: -1675px;
+  }
+  #story p{
+    padding-top: 250px;
   }
  }
 
@@ -97,7 +99,9 @@
   background-position: center;
   background-position-x: 0px;
 }
-
+#story p{
+  padding-top: 80px;
+}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
