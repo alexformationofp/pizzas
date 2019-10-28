@@ -54,10 +54,10 @@
     </footer>
     <script src="asset/js/jquery-3.4.1.js"></script>
     <script src="asset/js/bootstrap.js"></script>
-    <script src="asset/js/switch.js"></script>
     <script src="asset/js/scrollTo.js"></script>
     <script src="asset/js/burger.js"></script>
     <script src="asset/js/pop-up.js"></script>
+    <script src="asset/js/switch.js"></script>
   </body>
 </html>
 <!-- <ul id="burger-rm">

@@ -43,11 +43,16 @@
   #story{
     height: 90vh;
   }
+  #story p{
+    padding-top: 250px;
+  }
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+#story{
+  background-position: center;
+}
 
  }
 
@@ -90,8 +95,18 @@
   max-height: auto;
   height: auto;
 }
-
+#story{
+  background-position: center;
+  background-position-x: 0px;
+}
+#story p{
+  padding-top: 80px;
+}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+  #story{
+    background-position: center;
+  }
+ }
