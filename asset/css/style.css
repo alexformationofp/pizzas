@@ -330,11 +330,7 @@ font-family: 'Barlow', sans-serif; */
 	font-size: 18px;
 	text-align: center;
 }
-#footer .para2{
-	display: flex;
-	justify-content: center;
-}
-#footer .para2 img{
+#footer .para2 #facebook{
 	width: 30px;
 	height: auto;
 	margin-left: 20px;

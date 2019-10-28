@@ -46,6 +46,13 @@
   #story p{
     padding-top: 250px;
   }
+  #footer #luciologo{
+    width: 150px;
+    height: auto;
+  }
+  #footer .para2{
+    display: block;
+  }
  }
 
 /* Medium devices (tablets, 768px and up) */
@@ -53,8 +60,14 @@
 #story{
   background-position: center;
 }
-
- }
+#footer #luciologo{
+  width: 150px;
+  height: auto;
+}
+#footer .para2{
+  display: block;
+}
+}
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -108,5 +121,16 @@
 @media (min-width: 1200px) { 
   #story{
     background-position: center;
+  }
+  
+  #footer .para2{
+	display: flex;
+	justify-content: center;
+}
+#footer #luciologo{
+    width: 150px;
+    height: auto;
+    position: absolute;
+    right: 100px;
   }
  }
