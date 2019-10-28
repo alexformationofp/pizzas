@@ -309,7 +309,6 @@ font-family: 'Barlow', sans-serif; */
 #story{
 	background-image: url(../img/fonndd.jpg);
 	background-size: cover;
-	background-position: top center;
 	background-attachment: fixed;
 }
 #story p{
