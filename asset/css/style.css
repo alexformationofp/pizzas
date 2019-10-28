@@ -85,7 +85,7 @@ a:hover{
 	height: 10px;
 }
 .vert, .blanc, .rouge{
-	width: 50px;
+	width: 70px;
 	height: 10px;
 	display: inline-block;
 }
@@ -247,7 +247,7 @@ font-family: 'Barlow', sans-serif; */
 
 /* XXXXXXXXXXXXXXXXXXXXXXX  PIZZAS   XXXXXXXXXXXXXXXXXXXXX */
 #pizza{
-	padding-top: 50px;
+	padding-top: 70px;
 	background-image: url("../img/fond3.jpg");
 	background-position: center;
 	background-size: cover;
@@ -258,10 +258,10 @@ font-family: 'Barlow', sans-serif; */
     display: flex;
     justify-content: space-between;
 	flex-wrap: wrap;
-	padding-top: 50px;
+	padding-top: 70px;
 }
 .item{
-    width: 250px;
+    width: 270px;
     height: 300px;
     overflow: hidden;
     background-size:110%;
@@ -291,18 +291,21 @@ font-family: 'Barlow', sans-serif; */
 }
 .item h3, .item p{
     color: white;
-    padding: 5px;
+    
 }
 .item h3{
 	font-size: 28px;
 	font-family: 'Italiana', serif;
 	background-color: rgba(51, 51, 51, .9);
+	padding: 14px;
 }
 .item p{
 	font-family: Barlow;
 	font-weight: light;
 	font-size: 16px;
 	background-color: rgba(51, 51, 51, .9);
+	padding: 5px 14px;
+    height: 60px;
 }
 
 .carte-boissons{
@@ -339,7 +342,7 @@ font-family: 'Barlow', sans-serif; */
 
 @media (max-width: 1200px) {
 	.boisson {
-		width: 930px;
+		width: 970px;
 		top: 70px;
 	}
 	.contenu-boissons{
@@ -349,7 +352,7 @@ font-family: 'Barlow', sans-serif; */
 @media (max-width: 992px) {
 	.boisson {
 		width: 98%;
-		top: 50px;
+		top: 70px;
 	}
 	.contenu-boissons{
 		bottom: 1%;
@@ -391,6 +394,14 @@ font-family: 'Barlow', sans-serif; */
 		padding-top: 70px;
 	}
 }
+@media (max-width: 768px){
+	.les-pizzas {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding-top: 70px;
+	}
+}
 
 /* XXXXXXXXXXXXXXXXXXXXXX STORY XXXXXXXXXXXXXXXXXXX */
 
@@ -423,10 +434,106 @@ font-family: 'Barlow', sans-serif; */
 	justify-content: center;
 }
 #footer .para2 img{
-	width: 30px;
+	width: 70px;
 	height: auto;
 	margin-left: 20px;
 }
 #footer .para2 .iframe{
 	margin-left: 20px;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXX RESTAURANTS   XXXXXXXXXXXX  */
+
+#location{
+	padding-top: 70px;
+	background-image: url("../img/fond3.jpg");
+	background-position: center;
+	background-size: cover;
+	margin-bottom: -2px;
+}
+.contenu-resto {
+    font-family: 'Barlow', sans-serif;
+    width: auto;
+    display: inline-block;
+    padding: 15px;
+    background-color: rgba(255,255,255,.6);
+	border-radius: 10px;
+	box-shadow: 10px 13px 15px rgba(0,0,0,.5);
+}
+#location img {
+    box-shadow: 10px 13px 15px rgba(0,0,0,.5);
+    border-radius: 10px;
+}
+#location h4 {
+    font-family: 'italiana', 'serif';
+    font-size: 30px;
+    padding: 5px 0;
+}
+#location p{
+	font-size: 20px;
+	padding: 4px 0;
+}
+.rel{
+	position: relative;
+}
+.carte{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	opacity: .0;
+	border-radius: 10px;
+	transition: all .5s ease-in-out;
+}
+.carte:hover{
+	opacity: 1;
+}
+#deplace0 {
+	order: 0; /* default is 0 */
+	margin-bottom: 70px;
+}
+#deplace1 {
+	order: 1; /* default is 0 */
+	margin-bottom: 70px;
+}
+#deplace2 {
+	order: 2; /* default is 0 */
+	margin-bottom: 70px;
+}
+#deplace3 {
+	order: 3; /* default is 0 */
+	margin-bottom: 70px;
+}
+#deplace4 {
+	order: 4; /* default is 0 */
+	margin-bottom: 70px;
+}
+#deplace5 {
+	order: 5; /* default is 0 */
+	margin-bottom: 70px;
+}
+@media (max-width: 768px){
+	#deplace2 {
+		order: 3;
+	}
+	#deplace3 {
+		order: 2;
+	}
+	#deplace0, #deplace3, #deplace4{
+		margin-bottom: -3px;
+	}
+	.contenu-resto{
+		width: 100%;
+		border-radius: 0 0 10px 10px;
+	}
+	#location img {
+		box-shadow: none;
+		border-radius: 10px 10px 0 0;
+	}
+	.carte:hover{
+		opacity: 0;
+	}
+
 }
