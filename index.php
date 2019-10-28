@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="les pizzas de lucio">
-    <title>lucio armaretti</title>
+    <title>Lucio Amaretti - La pizza italienne</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,700|Italiana&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/bootstrap.css">
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="asset/css/responsive.css">
+    <link rel="shortcut icon" type="image/png" href="asset/img/2752drapeau-italiea.ico"/>
   </head>
   <body>
     <!-- En-tête de Navigation -->
